@@ -3,8 +3,8 @@
 	"description": "User selection of choice in style",
 	"author": "Vijay",
 	"author-email": "vijayakumar.a@krds.fr",
-	"image": "",
-	"gif": "",
+	"image": "packshot.png",
+	"gif": "packshot.gif",
 	"tags": "dropdown, select, flow",
 	"repo-url": "https://github.com/krdsbox/flow-down-select"
 }
