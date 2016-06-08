@@ -3,25 +3,52 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
-	<title>Box Starter</title>
+	<title>Flow Down Select</title>
 	<link rel="icon" href="./favicon.png">
 	<link rel="stylesheet" href="style/box.css">
 	<link rel="stylesheet" href="style/main.css">
+	<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,700' rel='stylesheet' type='text/css'>
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 </head>
 <body>
-	<nav class="boxActions">
-		<a href="#" id="previous_box" title="Previous box">
-			<img src="img/back-icon.svg" alt="back" />
-		</a>
-		<a href="#" id="box_home" title="Box home">
-			<img src="img/krdsbox.svg" alt="KRDS Box" />
-		</a>
-		<a href="#" id="github_repo" title="Github repo">
-			<img src="img/github.svg" alt="Github" />
-		</a>
-	</nav>
-	<h1>Box Starter</h1>
-	<p>An optional &amp; minimal starter kit for krdsbox components</p>
+	<div class="container">
+		<header>			
+			<h1>Flow Down Select</h1>
+			<p>User selection of choice in style</p>
+			<nav class="boxActions">
+				<a href="#" id="previous_box" title="Previous box">
+					<img src="img/back-icon.svg" alt="back" />
+				</a>
+				<a href="#" id="box_home" title="Box home">
+					<img src="img/krdsbox.svg" alt="KRDS Box" />
+				</a>
+				<a href="#" id="github_repo" title="Github repo">
+					<img src="img/github.svg" alt="Github" />
+				</a>
+			</nav>
+		</header>
+		<div class="dropdown">
+				<span class="selLabel">Select Country</span>
+			<input type="hidden" name="dropdown">
+			<ul class="dropdown-list">
+				<li>
+					<span>India</span>
+				</li>
+				<li>
+					<span>Sri Lanka</span>
+				</li>
+				<li>
+					<span>Nepal</span>
+				</li>
+				<li>
+					<span>Bangladesh</span>
+				</li>
+			</ul>
+		</div>	  
+		<div class="selected-item">
+			<p>You Selected Country : <span>Empty</span></p>
+		</div>
+	</div>
 	<script src="js/main.js"></script>
 </body>
 </html>

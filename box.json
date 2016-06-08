@@ -1,10 +1,10 @@
 {
-	"name": "Box starter",
-	"description": "An optional & minimal starter kit for krdsbox components",
-	"author": "Moorthy",
-	"author-email": "moorthy.g@krds.fr",
-	"image": "absolute path of 500x500 jpg ( empty string if no image )",
-	"gif": "absolute path of 500x500 gif ( empty string if no image )",
-	"tags": "comma, separated, tags",
+	"name": "Flow Down Select",
+	"description": "User selection of choice in style",
+	"author": "Vijay",
+	"author-email": "vijayakumar.a@krds.fr",
+	"image": "",
+	"gif": "",
+	"tags": "dropdown, select, flow",
 	"repo-url": "https://github.com/krdsbox/box-starter"
 }
